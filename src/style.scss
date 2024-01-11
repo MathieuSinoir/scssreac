@@ -1,0 +1,37 @@
+$first-color: #3f0ef0;
+$second-color: #ab0ec7;
+$third-color: #286fb1;
+$titre-color: #c922a5;
+$background-color: #a09d73;
+$scrib-color: #ffffff;
+
+.Card {
+  border-radius: 3%;
+  box-sizing: border-box;
+  width: 30%;
+  border: solid #000000 10px;
+  padding: 5px;
+  background: linear-gradient(
+    104.3deg,
+    $first-color 13.9%,
+    $third-color 45.8%,
+    $second-color 154.7%
+  );
+}
+
+h1 {
+  color: $titre-color;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  color: $scrib-color;
+}
